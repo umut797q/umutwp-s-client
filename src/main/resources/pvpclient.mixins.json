@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.pvpclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "InGameHudMixin",
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "InGameHudCrosshairMixin",
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

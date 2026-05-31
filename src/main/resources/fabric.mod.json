@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpclient",
+  "version": "${version}",
+  "name": "UmutWP's Client",
+  "description": "A feature-rich PvP client mod for Minecraft 1.20.4",
+  "authors": [
+    "PvPClient Dev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/pvpclient",
+    "sources": "https://github.com/pvpclient"
+  },
+  "license": "MIT",
+  "icon": "assets/pvpclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pvpclient.PvpClientMod"
+    ]
+  },
+  "mixins": [
+    "pvpclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
